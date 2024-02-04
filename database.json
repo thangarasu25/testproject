@@ -1,0 +1,82 @@
+{
+  "login": [
+    {
+      "username": "123",
+      "password": "admin",
+      "name": "admin",
+      "role": "admin",
+      "id": "123"
+    }
+  ],
+  "posts": [
+    {
+      "id": "1",
+      "title": "a title",
+      "views": 100
+    },
+    {
+      "id": "2",
+      "title": "another title",
+      "views": 200
+    }
+  ],
+  "comments": [
+    {
+      "id": "1",
+      "text": "a comment about post 1",
+      "postId": "1"
+    },
+    {
+      "id": "2",
+      "text": "another comment about post 1",
+      "postId": "1"
+    }
+  ],
+  "profile": {
+    "name": "typicode"
+  },
+  "collection": [
+    {
+      "id": "1ag0nb067",
+      "name": "aasdf",
+      "role": "sad",
+      "symbol": "aasdf"
+    },
+    {
+      "id": "gh5b1m1yh",
+      "name": "aasdf",
+      "role": "sad",
+      "symbol": "aasdf"
+    },
+    {
+      "id": "ol2tyetax",
+      "name": "aasdf",
+      "role": "sad",
+      "symbol": "aasdf"
+    },
+    {
+      "id": "6va95b00l",
+      "name": "aasdf",
+      "role": "sad",
+      "symbol": "aasdf"
+    },
+    {
+      "id": "u2d4g61sr",
+      "name": "aasdf",
+      "role": "sad",
+      "symbol": "aasdf"
+    },
+    {
+      "id": "egzc9kpjo",
+      "name": "aasdf",
+      "role": "sad",
+      "symbol": "aasdf"
+    },
+    {
+      "id": "zqjsuhkr4",
+      "name": "aasdf",
+      "role": "sad",
+      "symbol": "aasdf"
+    }
+  ]
+}

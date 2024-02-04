@@ -1,0 +1,21 @@
+<div style="background-image: url('assets/background.jpg');">
+  <div fxLayout="row" fxLayoutAlign="center" class="login-container" >
+    <mat-card fxFlex="30%"  mat-elevation="20">
+      <mat-card-header fxFlex="30%">
+        <mat-card-title >Login</mat-card-title>
+      </mat-card-header>
+      <mat-card-content>
+        <br>
+        <form fxLayout="column" fxLayoutGap="10px">
+          <mat-form-field>
+            <input matInput placeholder="userid" [(ngModel)]="username" name="userid" required>
+          </mat-form-field>
+          <mat-form-field>
+            <input matInput type="password" placeholder="Password" [(ngModel)]="password" name="password" required>
+          </mat-form-field>
+          <button mat-raised-button color="primary" (click)="login()">login</button>
+        </form>
+      </mat-card-content>
+    </mat-card>
+  </div>
+</div>
